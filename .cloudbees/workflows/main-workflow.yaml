@@ -26,7 +26,7 @@ jobs:
         with:
           token: ${{ secrets.GH_TOKEN }}
           org-name: cloudbees-days
-          repo-name: hackers-Wes4
+          repo-name: hackers-source-galonsomartinez
           branch-name: main
           workflow-name: test-and-build-image2
           test-type: JUnit
